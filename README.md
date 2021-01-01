@@ -3,6 +3,13 @@
 1. `git clone` this repository
 2. `yarn start`
 
+# Making sense of the code
+
+1. Important logic is contained in `src/lib/TableDataGenerator` which relies on
+   `src/lib/RowComputator`. These two classes are how I calculated how an event
+   should be rendered.
+2. Entry component for React is `src/App.tsx`.
+
 # How long did I spend on this assignment?
 
 I spent 3-4 days on and off implementing the features. Overall time spent would be ~8-9 hours.

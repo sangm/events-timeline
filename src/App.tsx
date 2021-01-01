@@ -37,10 +37,6 @@ function App() {
     });
   };
 
-  /* const updateName = (gridItem: GridItem, newName: string) => { */
-  /* const name = calendarState[gridItem.id].name; */
-  /* } */
-
   return (
     <div>
       {timelineMonths.map((tableData, index) => (
